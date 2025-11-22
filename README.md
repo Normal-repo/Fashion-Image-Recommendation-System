@@ -15,14 +15,15 @@ It extracts image embeddings using **ResNet50** and performs fast similarity sea
 - 📘 Jupyter Notebook included for the full pipeline  
 - 🔧 Easy to extend for large datasets  
 
+
+## Project
+
 ---
-
-## 📂 Repository Structure
-
-- fashion-recommendation.ipynb # Main notebook (feature extraction + FAISS search)
-- embeddings_store.npz # Precomputed embeddings (Git LFS)
-- README.md # Project documentation
-
+- 📂 Repository Structure
+- ├── fashion-recommendation.ipynb # Main notebook (feature extraction + FAISS search)
+- ├── embeddings_store.npz # Precomputed embeddings (Git LFS)
+- ├── README.md # Project documentation
+- └── dataset
 
 ---
 
@@ -46,7 +47,7 @@ jupyter notebook fashion-recommendation.ipynb
  - Extract image embeddings
  - Save them to .npz
  - Build a FAISS index
--  Query similar images
+ - Query similar images
  - Visualize top-K results
 
 ## 🧠 How It Works
