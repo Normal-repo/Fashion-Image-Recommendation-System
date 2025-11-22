@@ -1,0 +1,31 @@
+Dataset Used: Fashion Product Images Dataset (Kaggle)
+
+This project uses the "Fashion Product Images Dataset" created by Param Agrawal.
+It contains over 44,000 high-resolution fashion product images, along with
+multiple category labels and descriptive metadata.
+
+Dataset Link:
+https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
+
+Description:
+- 44k fashion product images
+- High-resolution product photos
+- Metadata provided in styles.csv and styles.json
+- Each product has a unique ID (e.g., 42431)
+- Multiple labels: category, subcategory, gender, etc.
+
+Usage:
+1. Local Machine
+   Download the dataset from the Kaggle link above, extract it, and place the
+   images and metadata files in your local project directory before running
+   the notebook.
+
+2. Running on Kaggle Notebook
+   If you run the project inside a Kaggle Notebook:
+   - You do NOT need to download the dataset manually.
+   - Simply add the dataset as an "Input" to your Kaggle Notebook.
+   - Kaggle will automatically mount it at: /kaggle/input/fashion-product-images-dataset/
+
+This avoids download time and allows direct access to:
+- /kaggle/input/fashion-product-images-dataset/images/
+- /kaggle/input/fashion-product-images-dataset/styles.csv
